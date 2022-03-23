@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="doDiff.cpp">
+      <Filter>source\doDiff</Filter>
+    </ClCompile>
+    <ClCompile Include="printResult.cpp">
+      <Filter>source\doDiff</Filter>
+    </ClCompile>
+    <ClCompile Include="stringProcess.cpp">
+      <Filter>source\doDiff</Filter>
+    </ClCompile>
+    <ClCompile Include="doGrep.cpp">
+      <Filter>source\doGrep</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_grep.cpp">
+      <Filter>source\doGrep</Filter>
+    </ClCompile>
+    <ClCompile Include="out_grep.cpp">
+      <Filter>source\doGrep</Filter>
+    </ClCompile>
+    <ClCompile Include="doTee.cpp">
+      <Filter>source\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="directory.cpp">
+      <Filter>source\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="doCat.cpp">
+      <Filter>source\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="doCp.cpp">
+      <Filter>source\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>source\Part3</Filter>
+    </ClCompile>
+    <ClCompile Include="doParser.cpp">
+      <Filter>source\parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constant.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="diffHeader.h">
+      <Filter>source\doDiff</Filter>
+    </ClInclude>
+    <ClInclude Include="grepHeader.h">
+      <Filter>source\doGrep</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>source\Part3</Filter>
+    </ClInclude>
+    <ClInclude Include="parserHeader.h">
+      <Filter>source\parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Diff\tinyShell_Diff\tinyShell_Diff\1.txt">
+      <Filter>testfile</Filter>
+    </Text>
+    <Text Include="..\..\..\Diff\tinyShell_Diff\tinyShell_Diff\2.txt">
+      <Filter>testfile</Filter>
+    </Text>
+    <Text Include="..\..\..\Diff\tinyShell_Diff\tinyShell_Diff\3.txt">
+      <Filter>testfile</Filter>
+    </Text>
+    <Text Include="..\..\..\Diff\tinyShell_Diff\tinyShell_Diff\4.txt">
+      <Filter>testfile</Filter>
+    </Text>
+    <Text Include="..\..\..\Diff\tinyShell_Diff\tinyShell_Diff\stress.txt">
+      <Filter>testfile</Filter>
+    </Text>
+    <Text Include="version-log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{683f873d-cb0e-493e-b685-2d790183dcce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\doDiff">
+      <UniqueIdentifier>{5ccd8191-ea00-4991-bc87-e7435a13449c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\doGrep">
+      <UniqueIdentifier>{c2e7bb35-4e95-493f-b999-908356a6d4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testfile">
+      <UniqueIdentifier>{a9120457-4696-424c-a81d-421e7524037b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\parser">
+      <UniqueIdentifier>{e2eb744a-41c6-4fd9-8980-aaa5553ba6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Part3">
+      <UniqueIdentifier>{cbdd2551-bb01-460d-bb43-7dcd505373b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
